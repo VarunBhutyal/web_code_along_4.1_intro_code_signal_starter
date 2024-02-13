@@ -1,5 +1,8 @@
 function solution(s, letter) {
-  // implement
+  let arrLetter = s.split("");
+  let counter=0;
+  arrLetter.forEach(element => element === letter ? counter++ : "");
+  return counter;
 }
 
 console.log(solution('this is a test', 's'))

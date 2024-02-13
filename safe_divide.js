@@ -1,5 +1,5 @@
 function solution(numerator, denominator) {
-  // implement
+  return (numerator/denominator);
 }
 
 console.log(solution(2, 3))

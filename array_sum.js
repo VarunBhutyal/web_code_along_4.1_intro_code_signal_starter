@@ -1,5 +1,7 @@
 function solution(a) {
-  // implement
+  let sum=0;
+  a.forEach(ele => sum += ele);
+  return sum ;
 }
 
 console.log(solution([]))
